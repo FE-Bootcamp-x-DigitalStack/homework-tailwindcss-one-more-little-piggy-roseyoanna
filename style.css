@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+
+/* The import statement above is not required for Tailwind to work.
+You should still leave it here, because it enables the beautiful autocompletion
+brought by the Tailwind CSS Intellisense plugin (if you've installed it!)
+*/
+
+/* If you need to write standard CSS syntax,
+to cover for anything that might not be provided by Tailwind
+you can write it here */
