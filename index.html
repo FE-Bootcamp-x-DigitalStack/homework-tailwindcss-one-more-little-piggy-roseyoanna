@@ -1,17 +1,45 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TailwindCSS | One little piggy</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style text="text/tailwindcss">
-      /* Write your TailwindCSS specific code here (e.g., @theme, @layer base, @layer components) */
-    </style>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <!-- Write your HTML code and TailwindCSS utilities here -->
-    <h1 class="text-ce">test</h1>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TailwindCSS | One little piggy</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style text="text/tailwindcss">
+    /* Write your TailwindCSS specific code here (e.g., @theme, @layer base, @layer components) */
+  </style>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Write your HTML code and TailwindCSS utilities here -->
+
+  <div class="container flex h-screen justify-center items-center ">
+
+    <div
+      class="head relative flex w-[400px] h-[400px] justify-center items-center rounded-full border-4 border-black bg-[#F9BECA]">
+      <div class="ears absolute flex w-full top-0 left-0 -z-10 justify-between  ">
+        <div class="left-ear w-28 h-28  border-4 rounded-full bg-[#F9BECA] "></div>
+        <div class="right-ear w-28 h-28  border-4 rounded-full bg-[#F9BECA] "></div>
+      </div>
+      <div class="eyes flex justify-between w-full px-16 mb-16">
+        <div class="left-eye flex justify-center items-center  border-4 rounded-full w-24 h-24 bg-white ">
+          <div class="left-pupil flex rounded-full w-8 h-8 bg-black"></div>
+        </div>
+        <div class="right-eye flex justify-center items-center  border-4 rounded-full w-24 h-24 bg-white">
+          <div class="right-pupil flex rounded-full w-8 h-8 bg-black "></div>
+        </div>
+
+      </div>
+      <div
+        class="nose absolute flex justify-between items-center w-36 h-24 bg-[#F46E86] border-4 border-black rounded-full px-6 bottom-10">
+        <div class="left-nostril w-8 h-8 rounded-full bg-black border-4"></div>
+        <div class="right-nostril  w-8 h-8 rounded-full bg-black border-4"></div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
 </html>
